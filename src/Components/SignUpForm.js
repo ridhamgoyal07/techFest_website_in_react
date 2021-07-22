@@ -16,6 +16,14 @@ const SignUpForm = () => {
     e.preventDefault();
     setSignUpFormData(initSignUpForm);
   };
+  const handlePasswordToogle = (e) => {
+    const password = document.getElementById("userPassword");
+    const type = password.getAttribute('type')==='password' ? 'text' : 'password';
+    password.setAttribute('type' , type);
+    e.target.classList.toggle("fa-eye-slash");
+    // console.log(e);
+  };
+
 
   return (
     <>
@@ -73,6 +81,15 @@ const SignUpForm = () => {
                 onChange={(e) => handleSignUpFormData(e)}
                 required
               />
+              <button type="button" className="btn border-bottom text-white">
+                <i
+                  className="far fa-eye"
+                  id="togglePassword"
+                  onClick={(e) => {
+                    handlePasswordToogle(e);
+                  }}
+                ></i>
+              </button>
             </div>
           </div>
           <div className="mb-3">
