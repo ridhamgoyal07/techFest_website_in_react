@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Questions from "../Data/techFest_FAQ_questions";
+import Questions from "../assests/Data/techFest_FAQ_questions";
 import FaqQuestion from "./FaqQuestion";
 // import Accordion from "react-bootstrap/Accordion";
 const FaqQuestions = () => {

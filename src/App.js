@@ -4,10 +4,7 @@ import ContactUs from "./Components/ContactUs";
 import NavBar from "./Components/NavBar";
 import Register from "./Components/Register";
 import PrIntern from "./Components/PrIntern";
-// import "./ContactUs.css";
-import "./myCSS/ContactUs.css";
-// import `{process.env.PUBLIC_URL}/myStyle/ContactUs.css`;
-// import process.env.PUBLIC_URL+'/myStyle/ContactUs.css';
+import "./assests/myCSS/ContactUs.css";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 

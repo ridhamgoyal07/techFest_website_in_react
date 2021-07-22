@@ -1,6 +1,7 @@
 import React from "react";
-import logo from "../images/techFESTlogo.png";
+import logo from "../assests/images/techFESTlogo.png";
 import { NavLink } from "react-router-dom";
+
 // import '../ContactUs.css';
 
 const NavBar = () => {

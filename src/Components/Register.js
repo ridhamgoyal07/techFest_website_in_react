@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import LoginSignUp from './LoginSignUp';
 
 const Register = () => {
     return (
-        <div>
-            <h2>Register</h2>
-        </div>
+        <>
+            <LoginSignUp />
+        </>
     )
 }
 
-export default Register
+export default Register;
